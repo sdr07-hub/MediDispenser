@@ -1,0 +1,10 @@
+#pragma once
+#include "globals.h"
+void setupWebServer();
+void handleRoot();
+void handleApiStatus();
+void handleApiSetAlarm();
+void handleApiDispense();
+void handleApiArm();
+void handleApiDebug();
+void handleApiRefill();
